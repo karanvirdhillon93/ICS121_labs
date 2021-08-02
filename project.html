@@ -1,0 +1,68 @@
+<html lang="en">
+   <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <title>Welcome!</title>
+      <link rel="stylesheet" href="includes/styles.css" type="text/css" media="screen" />
+   </head>
+ 
+      <body>
+   <div id="welcome"><b>Welcome to the Myanmar Trivia Quiz</b><br> please enter your name and click on "Begin Quiz" to start</div>
+   <div id="name"><b>Name:</b>
+   <input type="text" id="textbox">
+   <button id=”myButton” type="button" onclick="submission()">submit</button>
+   </div>
+   <form class="quiz">
+   <h1 id="welcome2">Myanmar Trivia Quiz </h1>
+   <div id="welcome2-0">Test your Demographic Knowledge<br>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+   <div id="welcome3-1"></div>
+   <h3 id="ans"></h3>
+   <div id="Question1" class="Question"></div>
+   <input type="radio" name="radiobutton" value="7Minutes" id="correctAnswer-1" class="Answer">7 Minutes<br>
+   <input type="radio" name="radiobutton" value="5Minutes" class="Answer" id="wrongAnswer-1">5 Minutes<br>
+   <input type="radio" name="radiobutton" value="20Minutes" class="Answer"id="wrongAnswer-2">20 Minutes  <br>
+   <input type="radio"name="radiobutton" value="14Minutes" class="Answer" id="wrongAnswer-3">14 Minutes
+   <div id="hint1" class="hints">[HINT]</div>
+   </form> 
+   <form class="quiz"> 
+   <div id="Question2" class="Question"><b></b></div>
+   <input type="radio" name="radiobutton" value="263Eggs" id="correctAnswer-2" class="Answer">263 eggs a year<br>
+   <input type="radio" name="radiobutton" value="23Eggs" class="Answer" id="wrongAnswer-4">23 eggs a year<br>
+   <input type="radio" name="radiobutton" value="100Eggs" class="Answer" id="wrongAnswer-5">100 eggs a year<br>
+   <input type="radio" name="radiobutton" value="45Eggs" class="Answer" id="wrongAnswer-6">45 eggs a year<br>
+   <div id="hint2" class="hints">[HINT]</div>
+   </form>
+   <form class="quiz">  
+   <div id="Question3" class="Question"><b></b></div>
+   <input type="radio" name="radiobutton" value="10,000" id="correctAnswer-3" class="Answer">10,000<br>
+   <input type="radio" name="radiobutton" value="4000" class="Answer" id="wrongAnswer-7">4000<br>
+   <input type="radio" name="radiobutton" value="20,000" class="Answer" id="wrongAnswer-8">20,000<br>
+   <input type="radio" name="radiobutton" value="537" class="Answer" id="wrongAnswer-9">537<br>
+   <div id="hint3" class="hints">[HINT]</div>
+   </form>
+   <form class="quiz">
+   <div id="Question4" class="Question"><b></b></div>
+   <input type="radio" name="radiobutton" value="7Years" id="correctAnswer-4" class="Answer">7 Years<br>
+   <input type="radio" name="radiobutton" value="5Years" class="Answer" id="wrongAnswer-10">5 Years<br>
+   <input type="radio" name="radiobutton" value="20Years" class="Answer" id="wrongAnswer-11">20 Years  <br>
+   <input type="radio" name="radiobutton" value="14Years" class="Answer" id="wrongAnswer-12">14 Years  <br>
+   <div id="hint4" class="hints">[HINT]</div>
+   </form> 
+   <form class="quiz">
+   <div id="Question5" class="Question"><b></b></div>
+   <input type="radio" name="radiobutton" value="7%" id="correctAnswer-5" class="Answer"> 7%<br>
+   <input type="radio" name="radiobutton" value="5%" class="Answer" id="wrongAnswer-13">5%<br>
+   <input type="radio" name="radiobutton" value="20%" class="Answer" id="wrongAnswer-14">20%<br>
+   <input type="radio" name="radiobutton" value="14%" class="Answer" id="wrongAnswer-15">14%<br>
+   <div id="hint5" class="hints">[HINT]</div>
+   <br>
+   <br>
+   <button id=”MYsubmit” type="button" onclick="finalsubmit()">submit</button>
+   <div id="score"></div>
+   <div id="COPYRIGHT">Copyright © 2019. All rights reserved</div>
+   <br>
+     <br>
+   </form> 
+   </body>
+   <script src="includes/scripts.js"></script>
+</html>

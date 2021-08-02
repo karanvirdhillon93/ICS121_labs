@@ -1,0 +1,80 @@
+#welcome{
+    top:30px;
+    left: 30px;
+    color: antiquewhite;
+    border: 2px solid darkblue;
+    background: darkblue;
+    padding: 25px;
+  
+}
+
+#name{
+ 
+    top:30px;
+    left: 500px;
+    color: antiquewhite;
+    background: darkblue;
+    border: 25px solid darkblue;
+}
+
+body {
+    background-color: lightblue;
+    color: white;
+  }
+#welcome2{
+	text-align: center;
+
+    color: antiquewhite;
+    background: darkblue;
+    border: 50px solid darkblue;
+}
+#welcome3-1{
+	top:30px;
+    left: 500px;
+    color: Aqua;
+    background:darkblue;
+    border: 25px solid darkblue;
+}
+#welcome2-0{
+	text-align: center;
+    color: antiquewhite;
+    background: darkblue;
+    border: 25px solid darkblue;
+}
+.Question{
+	text-align: left;
+    color: antiquewhite;
+    background: darkblue;
+    border: 25px solid darkblue;
+}
+.hints{
+    position: relative;
+    top: 30px;
+color: aquamarine;
+background: darkblue;
+border: 25px solid darkblue;
+
+}
+.quiz{
+background: darkblue;
+}
+#ans{
+	text-align: left;
+	border: 25px solid darkblue;
+	background: darkblue;
+	color:red;
+}
+#score{
+	
+	background-color: yellow;
+    color:red;
+    background-size: 100px 100px;
+
+}
+input[type="radio"]{
+    margin: 10 10px 0 10px;
+  }
+  .Answer{
+    position: relative;
+    left: 0.5%;
+  }

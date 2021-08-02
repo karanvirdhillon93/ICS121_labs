@@ -1,0 +1,38 @@
+#welcome {
+    top: 30px;
+    left: 30px;
+    color: antiquewhite;
+    border: 2px solid blue;
+    background: blue;
+    padding: 25px;
+  }
+  
+  #name {
+    top: 30px;
+    left: 500px;
+    color: antiquewhite;
+    background: blue;
+    border: 25px solid blue;
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+  
+  #welcome2 {
+    top: 30px;
+    left: 500px;
+   text-align: center;
+   color: antiquewhite;
+   background: blue;
+   border: 25px solid blue;
+  }
+  #welcome2-0 {
+    top: 30px;
+    left: 500px;
+    text-align: center;
+    color: antiquewhite;
+    background: blue;
+    border: 25px solid blue;
+
+  }
